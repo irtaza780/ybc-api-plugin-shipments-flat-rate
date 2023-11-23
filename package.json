@@ -1,0 +1,79 @@
+{
+  "_from": "@reactioncommerce/ybc-api-plugin-shipments-flat-rate@1.0.10",
+  "_id": "@reactioncommerce/api-plugin-shipments-flat-rate@1.0.10",
+  "_inBundle": false,
+  "_integrity": "sha512-XilxXESaBQa6v1ChSTduYg8kCTYElI9jy6lWevrfjkRjquSlA/sNZmZOMSkRW0tdZhZMCnAboH+C2r/62IDHBg==",
+  "_location": "/@reactioncommerce/api-plugin-shipments-flat-rate",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@reactioncommerce/api-plugin-shipments-flat-rate@1.0.10",
+    "name": "@reactioncommerce/api-plugin-shipments-flat-rate",
+    "escapedName": "@reactioncommerce%2fapi-plugin-shipments-flat-rate",
+    "scope": "@reactioncommerce",
+    "rawSpec": "1.0.10",
+    "saveSpec": null,
+    "fetchSpec": "1.0.10"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@reactioncommerce/api-plugin-shipments-flat-rate/-/api-plugin-shipments-flat-rate-1.0.10.tgz",
+  "_shasum": "ee66b4b17bbd345ca21bae0a333a27fc28b8013f",
+  "_spec": "@reactioncommerce/api-plugin-shipments-flat-rate@1.0.10",
+  "_where": "/home/irtaza/your-baking-connection/your-baking-connection-backend",
+  "author": {
+    "name": "Reaction Commerce",
+    "email": "engineering@reactioncommerce.com",
+    "url": "https://reactioncommerce.com"
+  },
+  "bugs": {
+    "url": "https://github.com/reactioncommerce/reaction/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@reactioncommerce/api-utils": "^1.16.9",
+    "@reactioncommerce/logger": "^1.1.3",
+    "@reactioncommerce/random": "^1.0.2",
+    "@reactioncommerce/reaction-error": "^1.0.1",
+    "lodash": "^4.17.15",
+    "simpl-schema": "^1.12.0"
+  },
+  "deprecated": false,
+  "description": "Flat Rate Shipments plugin for the Reaction API",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@reactioncommerce/babel-remove-es-create-require": "~1.0.0",
+    "@reactioncommerce/data-factory": "~1.0.1",
+    "babel-plugin-rewire-exports": "^2.0.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-plugin-transform-import-meta": "~1.0.0"
+  },
+  "email": "engineering@reactioncommerce.com",
+  "engines": {
+    "node": ">=14.18.1"
+  },
+  "homepage": "https://github.com/reactioncommerce/reaction",
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "name": "@reactioncommerce/api-plugin-shipments-flat-rate",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactioncommerce/reaction.git",
+    "directory": "packages/api-plugin-shipments-flat-rate"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:file": "jest --no-cache --watch --coverage=false",
+    "test:watch": "jest --watch"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "url": "https://github.com/reactioncommerce/reaction",
+  "version": "1.0.10"
+}
